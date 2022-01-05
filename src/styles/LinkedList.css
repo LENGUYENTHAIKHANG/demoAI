@@ -1,0 +1,8 @@
+.linked-list {
+  height: 100vh;
+}
+
+.node-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 7.5rem);
+}

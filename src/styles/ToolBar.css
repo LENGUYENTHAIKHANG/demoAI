@@ -1,0 +1,51 @@
+.tool-bar {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 2rem;
+  padding: 0 0 0 0;
+  margin-left: 2%;
+  margin-top: 50px;
+}
+
+.label {
+  display: block;
+  padding-bottom: 0.5rem;
+  color: black;
+}
+
+.value-input,
+.index-input {
+  height: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  color: black;
+  background-color: #f5f5f5;
+  width: 5.5rem;
+}
+
+.valid {
+  color: red;
+}
+
+.submit {
+  width: 7.5rem;
+  height: 2.3rem;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  color: black;
+}
+
+.submit-container {
+  align-self: end;
+  border-radius: 4px;
+}
+
+.submit:hover {
+  background-color: #444444;
+  color: white;
+}
+
+
+.mainContent {
+  margin-top: 500px;
+}

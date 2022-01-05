@@ -1,0 +1,45 @@
+.node {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.content {
+  display: flex;
+  flex-grow: 2;
+  flex-direction: column;
+  align-items: center;
+}
+
+.index,
+.value,
+.next {
+  color: black;
+  font-size: 0.7rem;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.object {
+  height: 4.2rem;
+  width: 4.2rem;
+  border-radius: 100px;
+  margin-bottom: 0.5rem;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-self: center;
+  transform: translateY(-17px);
+  z-index: -1;
+}
+
+.node:last-child .arrow {
+  visibility: hidden;
+}
+
+.node-container {
+  margin-left: 2%;
+}

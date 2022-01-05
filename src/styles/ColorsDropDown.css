@@ -1,0 +1,54 @@
+.colors-drop-down {
+  position: relative;
+  width: 7.5rem;
+  height: 2.3rem;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.color-current {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2.3rem;
+  padding: 0rem 1rem;
+  border-radius: 4px;
+}
+
+.drop-opened {
+  transform: rotate(180deg);
+  transition: 0.3s ease-in-out;
+}
+
+.drop-closed {
+  transform: rotate(0);
+  transition: 0.3s ease-in-out;
+}
+
+.color-list {
+  position: absolute;
+  top: 1.5rem;
+  left: 0;
+  list-style-type: none;
+}
+
+.drop-color {
+  display: flex;
+  align-items: center;
+  width: 5.5rem;
+  height: 2rem;
+  background-color: #f5f5f5;
+  padding: 0.5rem 1rem;
+  margin-left: -40px;
+}
+
+.drop-color:hover {
+  background-color: #444444;
+}
+
+.colorbox {
+  height: 1rem;
+  width: 50%;
+  border-radius: 1px;
+}
