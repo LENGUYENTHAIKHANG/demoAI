@@ -23,7 +23,9 @@ class App extends React.Component {
         <AlgoDisplay/>
         <LinkedList/>
         <h3>Cây nhị phân</h3>
-        <div id="mainContent"></div>
+        <div id="mainContent">
+          
+        </div>
       </div>
     );
   }
