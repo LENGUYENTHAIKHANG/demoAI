@@ -4,6 +4,8 @@ import { NavBar } from "./components/NavBar";
 import { Controller } from "./components/Controller";
 import { AlgoDisplay } from "./components/AlgoDisplay";
 import LinkedList from "./components/LinkedList";
+import Caynhiphan from "./components/caynhiphan";
+
 
 
 const Container = styled.div`
@@ -23,9 +25,8 @@ class App extends React.Component {
         <AlgoDisplay/>
         <LinkedList/>
         <h3>Cây nhị phân</h3>
-        <div id="mainContent">
-          
-        </div>
+        <Caynhiphan/>
+        
       </div>
     );
   }
