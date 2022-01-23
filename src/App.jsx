@@ -8,6 +8,7 @@ import Caynhiphan from "./components/caynhiphan";
 
 
 
+
 const Container = styled.div`
   margin: 0 10px;
   min-height: calc(100vh - 50px);
@@ -24,7 +25,7 @@ class App extends React.Component {
         <Controller/>
         <AlgoDisplay/>
         <LinkedList/>
-        <h3>Cây nhị phân</h3>
+        <h3>Cây nhị khan phân</h3>
         <Caynhiphan/>
         
       </div>

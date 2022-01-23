@@ -19,6 +19,7 @@ export const sortingAlgorithms = [
   { component: BubbleSort, title: "Sắp xếp nổi bọt", name: "SẮP XẾP NỔI BỌT" },
   { component: SelectionSort, title: "Sắp xếp chọn", name: "SẮP XẾP CHỌN" },
   { component: InsertionSort, title: "Sắp xếp chèn", name: "SẮP XẾP CHÈN" },
+  
 ];
 
 function initArrayForScreenSize() {
