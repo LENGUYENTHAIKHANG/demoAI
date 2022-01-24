@@ -25,7 +25,7 @@ class App extends React.Component {
         <Controller/>
         <AlgoDisplay/>
         <LinkedList/>
-        <h3>Cây nhị khan phân</h3>
+        <h3>Cây nhị khanaaa phân</h3>
         <Caynhiphan/>
         
       </div>
